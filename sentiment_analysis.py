@@ -45,7 +45,7 @@ def test_model(sample_reviews):
 
 # Main
 # Load and preprocess the data
-file_path = 'amazon_product_reviews2.csv'  
+file_path = 'amazon_product_reviews.csv'  
 clean_data = load_and_preprocess_data(file_path)
 
 # Test the model on sample product reviews
